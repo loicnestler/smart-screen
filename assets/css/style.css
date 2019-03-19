@@ -1,0 +1,59 @@
+body, html, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: "DejaVu Sans Mono", monospace;
+    text-align: center;
+}
+
+body.desktop {
+    background: rgba(17, 17, 17, 0.81);
+}
+
+.null {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.hidden.noblink {
+    opacity: 1 !important;
+}
+
+#dot {
+    margin: -140px;
+}
+
+#time {
+    font-size: 1300%;
+    margin-top: 320px;
+}
+
+#seconds {
+    display: block;
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+.active {
+    color: white;
+}
+
+.inactive {
+    color: rgba(255, 255, 255, 0.44);
+}
+
+.half {
+    color: #279bee;
+}
+
+.page {
+    /*height: 100vh;*/
+    width: 100vw;
+}
